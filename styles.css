@@ -1,0 +1,65 @@
+/*********************TAG SELECTORS**************/
+body {
+    background-color: #FAF1E6;
+}
+hr {
+    background-color: white;
+    border-style: none;
+    height: 3px;
+    width: 50%;
+}
+h2 { 
+    color: #10707d;
+    background-color: #FFEEDB;
+    width: 50%;
+}
+h3 {
+    color: #39A6A3;
+}
+img :hover {
+    background-color:#39A6A3;
+}
+
+/*******************CLASS SELECTORS = multiple use***************/
+.picture {
+    border-radius: 100%;
+}
+
+.picture:hover {
+    transform:scale(1.2) rotate(5deg);
+}
+
+/******************ID SELECTORS = single use******************/
+
+#title {
+    background-color: #FFEEDB;
+    width: 50%;
+}
+
+* {
+   margin: 0;
+   padding: 0; 
+}
+
+.light {
+    background: #f66767;
+}
+
+.dark {
+    background: #be4f4f;
+}
+
+.item {
+    color: #3c3d47;
+    font-size: 6rem;
+}
+
+.container {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(200px, 200px);
+    grid-gap: 1rem;
+    justify-content: center;
+    border: 5px solid #cf8a8a;
+}
